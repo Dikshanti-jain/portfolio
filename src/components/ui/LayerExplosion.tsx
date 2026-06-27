@@ -1,4 +1,4 @@
-// 3D Exploded Layer Stack Component - Pass 19
+// 3D Exploded Layer Stack Component - Pass 23
 import React, { useState } from 'react';
 
 export interface LayerItem {
@@ -28,7 +28,7 @@ export const LayerExplosion: React.FC<LayerExplosionProps> = ({
     <div className="relative h-96 w-full flex items-center justify-center [perspective:1000px]">
       <div className="relative w-80 h-48 [transform-style:preserve-3d] [transform:rotateX(60deg)_rotateZ(-45deg)] transition-transform duration-500">
         {layers.map((layer, idx) => {
-          const zOffset = exploded ? (idx - 1.5) * 57 : 0;
+          const zOffset = exploded ? (idx - 1.5) * 61 : 0;
           return (
             <div
               key={layer.id}
