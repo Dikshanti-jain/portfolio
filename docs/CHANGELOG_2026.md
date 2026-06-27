@@ -24,3 +24,4 @@
 - **2026-06-26 19:25:10**: [blueprint_grid] build #22 deployed to staging.
 - **2026-06-27 09:22:15**: [layer_explosion] build #23 deployed to staging.
 - **2026-06-27 11:45:30**: [radar_canvas] build #24 deployed to staging.
+- **2026-06-27 14:15:45**: [design_tokens] build #25 deployed to staging.
