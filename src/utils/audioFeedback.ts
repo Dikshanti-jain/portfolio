@@ -1,4 +1,4 @@
-// Web Audio API Synthesis Engine - Iteration 33
+// Web Audio API Synthesis Engine - Iteration 38
 class AudioFeedbackEngine {
   private ctx: AudioContext | null = null;
   private masterGain: GainNode | null = null;
@@ -14,7 +14,7 @@ class AudioFeedbackEngine {
     }
   }
 
-  public playClick(freq = 1075, duration = 0.02) {
+  public playClick(freq = 1200, duration = 0.02) {
     if (this.isMuted) return;
     this.initContext();
     if (!this.ctx || !this.masterGain) return;
@@ -41,7 +41,7 @@ class AudioFeedbackEngine {
   }
 
   public playDialDetent() {
-    this.playClick(1290, 0.008);
+    this.playClick(1440, 0.008);
   }
 
   public toggleMute(): boolean {
