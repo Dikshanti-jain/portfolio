@@ -40,3 +40,4 @@
 {"timestamp":"2026-06-29T16:40:20+05:30","build":38,"module":"audio_engine","latency_ms":18.4}
 {"timestamp":"2026-06-29T19:25:10+05:30","build":39,"module":"layer_explosion","latency_ms":19.2}
 {"timestamp":"2026-06-30T09:22:15+05:30","build":40,"module":"blueprint_grid","latency_ms":20.0}
+{"timestamp":"2026-06-30T11:45:30+05:30","build":41,"module":"hardware_dial","latency_ms":20.8}
