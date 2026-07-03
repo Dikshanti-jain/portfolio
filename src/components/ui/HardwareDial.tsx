@@ -1,4 +1,4 @@
-// Tactile Rotary Hardware Dial - Revision 57
+// Tactile Rotary Hardware Dial - Revision 62
 import React, { useState, useRef, useCallback } from 'react';
 
 export interface HardwareDialProps {
@@ -14,7 +14,7 @@ export const HardwareDial: React.FC<HardwareDialProps> = ({
   min = 0,
   max = 100,
   step = 1,
-  defaultValue = 27,
+  defaultValue = 32,
   onChange,
   hapticFeedback = true
 }) => {
