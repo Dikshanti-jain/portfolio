@@ -1,4 +1,4 @@
-// WebGL / Canvas 2D Radar Canvas Target Sweeper - Build 90
+// WebGL / Canvas 2D Radar Canvas Target Sweeper - Build 94
 import React, { useEffect, useRef } from 'react';
 
 export const InteractiveRadar: React.FC<{ size?: number }> = ({ size = 320 }) => {
@@ -34,7 +34,7 @@ export const InteractiveRadar: React.FC<{ size?: number }> = ({ size = 320 }) =>
       }
 
       // Sweep line
-      angle += 0.03;
+      angle += 0.05;
       ctx.strokeStyle = 'rgba(52, 211, 153, 0.8)';
       ctx.beginPath();
       ctx.moveTo(center, center);
