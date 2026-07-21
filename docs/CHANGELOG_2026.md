@@ -160,3 +160,4 @@
 - **2026-07-20 14:15:45**: [radar_canvas] build #158 deployed to staging.
 - **2026-07-20 16:40:20**: [design_tokens] build #159 deployed to staging.
 - **2026-07-20 19:25:10**: [blueprint_grid] build #160 deployed to staging.
+- **2026-07-21 09:22:15**: [layer_explosion] build #161 deployed to staging.
