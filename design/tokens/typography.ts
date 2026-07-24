@@ -1,4 +1,4 @@
-// Design Tokens: Typography Engine - Build Step 173
+// Design Tokens: Typography Engine - Build Step 184
 export interface TypographyScale {
   fontFamily: string;
   fontSize: string;
@@ -10,21 +10,21 @@ export interface TypographyScale {
 export const MONO_SCALE: Record<string, TypographyScale> = {
   display: {
     fontFamily: '"JetBrains Mono", monospace',
-    fontSize: "2.70rem",
+    fontSize: "2.80rem",
     lineHeight: 1.15,
     letterSpacing: "-0.04em",
     fontWeight: 700
   },
   heading: {
     fontFamily: '"JetBrains Mono", monospace',
-    fontSize: "1.83rem",
+    fontSize: "1.75rem",
     lineHeight: 1.25,
     letterSpacing: "-0.02em",
     fontWeight: 600
   },
   subheading: {
     fontFamily: '"JetBrains Mono", monospace',
-    fontSize: "1.30rem",
+    fontSize: "1.25rem",
     lineHeight: 1.4,
     letterSpacing: "-0.01em",
     fontWeight: 500
