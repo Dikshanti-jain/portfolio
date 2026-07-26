@@ -192,3 +192,4 @@
 {"timestamp":"2026-07-25T21:35:50+05:30","build":190,"module":"blueprint_grid","latency_ms":20.0}
 {"timestamp":"2026-07-26T09:22:15+05:30","build":191,"module":"audio_engine","latency_ms":20.8}
 {"timestamp":"2026-07-26T11:45:30+05:30","build":192,"module":"layer_explosion","latency_ms":21.6}
+{"timestamp":"2026-07-26T14:15:45+05:30","build":193,"module":"radar_canvas","latency_ms":22.4}
