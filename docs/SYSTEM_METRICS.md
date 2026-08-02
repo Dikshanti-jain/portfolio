@@ -230,3 +230,4 @@
 {"timestamp":"2026-08-01T14:15:45+05:30","build":228,"module":"radar_canvas","latency_ms":14.4}
 {"timestamp":"2026-08-01T16:40:20+05:30","build":229,"module":"design_tokens","latency_ms":15.2}
 {"timestamp":"2026-08-01T19:25:10+05:30","build":230,"module":"blueprint_grid","latency_ms":16.0}
+{"timestamp":"2026-08-02T09:22:15+05:30","build":231,"module":"layer_explosion","latency_ms":16.8}
