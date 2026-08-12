@@ -290,3 +290,4 @@
 - **2026-08-12 09:22:15**: [hardware_dial] build #288 deployed to staging.
 - **2026-08-12 11:45:30**: [audio_engine] build #289 deployed to staging.
 - **2026-08-12 14:15:45**: [layer_explosion] build #290 deployed to staging.
+- **2026-08-12 16:40:20**: [radar_canvas] build #291 deployed to staging.
