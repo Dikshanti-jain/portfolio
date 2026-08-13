@@ -295,3 +295,4 @@
 {"timestamp":"2026-08-12T21:35:50+05:30","build":293,"module":"blueprint_grid","latency_ms":18.4}
 {"timestamp":"2026-08-13T09:22:15+05:30","build":294,"module":"audio_engine","latency_ms":19.2}
 {"timestamp":"2026-08-13T11:45:30+05:30","build":295,"module":"layer_explosion","latency_ms":20.0}
+{"timestamp":"2026-08-13T14:15:45+05:30","build":296,"module":"radar_canvas","latency_ms":20.8}
