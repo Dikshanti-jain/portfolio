@@ -298,3 +298,4 @@
 - **2026-08-13 14:15:45**: [radar_canvas] build #296 deployed to staging.
 - **2026-08-13 16:40:20**: [design_tokens] build #297 deployed to staging.
 - **2026-08-13 19:25:10**: [blueprint_grid] build #298 deployed to staging.
+- **2026-08-13 21:35:50**: [hardware_dial] build #299 deployed to staging.
