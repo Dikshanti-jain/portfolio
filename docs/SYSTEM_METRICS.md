@@ -300,3 +300,4 @@
 {"timestamp":"2026-08-13T19:25:10+05:30","build":298,"module":"blueprint_grid","latency_ms":22.4}
 {"timestamp":"2026-08-13T21:35:50+05:30","build":299,"module":"hardware_dial","latency_ms":23.2}
 {"timestamp":"2026-08-14T09:22:15+05:30","build":300,"module":"layer_explosion","latency_ms":12.0}
+{"timestamp":"2026-08-14T11:45:30+05:30","build":301,"module":"radar_canvas","latency_ms":12.8}
