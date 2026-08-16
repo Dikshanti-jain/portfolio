@@ -316,3 +316,4 @@
 - **2026-08-16 14:15:45**: [hardware_dial] build #314 deployed to staging.
 - **2026-08-16 16:40:20**: [audio_engine] build #315 deployed to staging.
 - **2026-08-16 19:25:10**: [layer_explosion] build #316 deployed to staging.
+- **2026-08-16 21:35:50**: [radar_canvas] build #317 deployed to staging.
