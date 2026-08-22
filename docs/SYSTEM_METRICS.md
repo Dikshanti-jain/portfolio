@@ -350,3 +350,4 @@
 {"timestamp":"2026-08-22T11:45:30+05:30","build":348,"module":"blueprint_grid","latency_ms":14.4}
 {"timestamp":"2026-08-22T14:15:45+05:30","build":349,"module":"hardware_dial","latency_ms":15.2}
 {"timestamp":"2026-08-22T16:40:20+05:30","build":350,"module":"audio_engine","latency_ms":16.0}
+{"timestamp":"2026-08-22T19:25:10+05:30","build":351,"module":"layer_explosion","latency_ms":16.8}
