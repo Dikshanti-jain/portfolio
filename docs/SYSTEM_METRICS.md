@@ -355,3 +355,4 @@
 {"timestamp":"2026-08-23T11:45:30+05:30","build":353,"module":"hardware_dial","latency_ms":18.4}
 {"timestamp":"2026-08-23T14:15:45+05:30","build":354,"module":"audio_engine","latency_ms":19.2}
 {"timestamp":"2026-08-23T16:40:20+05:30","build":355,"module":"layer_explosion","latency_ms":20.0}
+{"timestamp":"2026-08-23T19:25:10+05:30","build":356,"module":"radar_canvas","latency_ms":20.8}
