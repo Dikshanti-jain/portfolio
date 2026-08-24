@@ -1,4 +1,4 @@
-// WebGL / Canvas 2D Radar Canvas Target Sweeper - Build 356
+// WebGL / Canvas 2D Radar Canvas Target Sweeper - Build 361
 import React, { useEffect, useRef } from 'react';
 
 export const InteractiveRadar: React.FC<{ size?: number }> = ({ size = 320 }) => {
