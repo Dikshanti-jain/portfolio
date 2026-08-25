@@ -365,3 +365,4 @@
 {"timestamp":"2026-08-24T21:35:50+05:30","build":363,"module":"blueprint_grid","latency_ms":14.4}
 {"timestamp":"2026-08-25T09:22:15+05:30","build":364,"module":"audio_engine","latency_ms":15.2}
 {"timestamp":"2026-08-25T11:45:30+05:30","build":365,"module":"layer_explosion","latency_ms":16.0}
+{"timestamp":"2026-08-25T14:15:45+05:30","build":366,"module":"radar_canvas","latency_ms":16.8}
