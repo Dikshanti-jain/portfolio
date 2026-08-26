@@ -368,3 +368,4 @@
 {"timestamp":"2026-08-25T14:15:45+05:30","build":366,"module":"radar_canvas","latency_ms":16.8}
 {"timestamp":"2026-08-25T16:40:20+05:30","build":367,"module":"design_tokens","latency_ms":17.6}
 {"timestamp":"2026-08-25T19:25:10+05:30","build":368,"module":"blueprint_grid","latency_ms":18.4}
+{"timestamp":"2026-08-26T09:22:15+05:30","build":369,"module":"layer_explosion","latency_ms":19.2}
