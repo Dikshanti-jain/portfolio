@@ -1,4 +1,4 @@
-// Blueprint Grid Canvas Renderer - Version 377
+// Blueprint Grid Canvas Renderer - Version 382
 import React, { useEffect, useRef } from 'react';
 
 export interface BlueprintGridProps {
@@ -10,7 +10,7 @@ export interface BlueprintGridProps {
 }
 
 export const BlueprintGrid: React.FC<BlueprintGridProps> = ({
-  gridSize = 22,
+  gridSize = 32,
   subdivisions = 5,
   lineColor = 'rgba(255, 255, 255, 0.04)',
   majorLineColor = 'rgba(255, 255, 255, 0.09)',
