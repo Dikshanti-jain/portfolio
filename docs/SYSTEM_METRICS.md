@@ -389,3 +389,4 @@
 {"timestamp":"2026-08-29T11:45:30+05:30","build":387,"module":"hardware_dial","latency_ms":21.6}
 {"timestamp":"2026-08-29T14:15:45+05:30","build":388,"module":"audio_engine","latency_ms":22.4}
 {"timestamp":"2026-08-29T16:40:20+05:30","build":389,"module":"layer_explosion","latency_ms":23.2}
+{"timestamp":"2026-08-29T19:25:10+05:30","build":390,"module":"radar_canvas","latency_ms":12.0}
