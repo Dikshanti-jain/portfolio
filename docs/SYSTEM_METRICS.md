@@ -399,3 +399,4 @@
 {"timestamp":"2026-08-30T21:35:50+05:30","build":397,"module":"blueprint_grid","latency_ms":17.6}
 {"timestamp":"2026-08-31T09:22:15+05:30","build":398,"module":"audio_engine","latency_ms":18.4}
 {"timestamp":"2026-08-31T11:45:30+05:30","build":399,"module":"layer_explosion","latency_ms":19.2}
+{"timestamp":"2026-08-31T14:15:45+05:30","build":400,"module":"radar_canvas","latency_ms":20.0}
