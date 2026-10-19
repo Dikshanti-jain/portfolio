@@ -1,0 +1,34 @@
+# .cursorrules — Automated IDE Anti-Slop & Design Engineering Guardrails
+# Ashmit Kathat Portfolio (Ex-Vercel / Linear / Teenage Engineering Quality Standard)
+
+# 1. VISUAL DIRECTION (SWISS INDUSTRIAL DAYLIGHT)
+- FORBIDDEN: Dark mode (#000, #0a0a0a), purple/cyan AI gradients, glowing blurred blobs, warm cream/beige (#FAF8F5), heavy glassmorphism, muddy shadow-2xl.
+- MANDATORY PALETTE:
+  - Canvas: #F4F5F7 (Cool Alabaster)
+  - Card/Module: #FFFFFF (Elevated Surface)
+  - Recessed/Wireframe: #EAECEF
+  - Hairline Border: 1px solid #DDE1E7 (with "+" crosshair marks at major grid intersections)
+  - Ink Primary: #111315 (Deep Carbon)
+  - Ink Secondary: #5A6065 (Muted Graphite)
+  - Ink Metadata: #8C9298 (Technical Monospace)
+  - Primary Accent: #FF4F00 (International Signal Orange)
+  - Blueprint Accent: #0047FF (Cobalt Blueprint Blue - X-Ray Mode)
+  - Live Status: #107C41 (Oxidized Emerald)
+
+# 2. TYPOGRAPHY SYSTEM
+- Display / Editorial: 'Instrument Serif' (use Italic for emotional/craft keywords inside technical headers)
+- UI & Body: 'Geist Sans' or 'Plus Jakarta Sans' (tight tracking -0.02em on headings)
+- Metadata / Specs: 'JetBrains Mono' or 'Geist Mono' (uppercase, text-[11px], tracking-widest, e.g. [01 / CASE STUDIES])
+
+# 3. MOTION & PHYSICS (FRAMER MOTION)
+- Default spring: { type: "spring", stiffness: 380, damping: 30, mass: 0.8 }
+- Snappy micro: { type: "spring", stiffness: 500, damping: 35, mass: 0.5 }
+- Surface/Drawer: { type: "spring", stiffness: 280, damping: 28, mass: 1.2 }
+- Compression feel: All interactive buttons must have whileTap={{ scale: 0.97 }} or active:scale-[0.97]
+- Support prefers-reduced-motion everywhere.
+
+# 4. CODE RULES & NO FAKE DATA
+- Never use mock objects, dummy values, or placeholder URLs in production blocks.
+- Pull all project case studies, metrics, and bio data from src/data/portfolioData.ts.
+- Strict TypeScript: no 'any'.
+- Semantic HTML with full ARIA accessibility and keyboard shortcuts (X for X-Ray, Cmd+K for Launchpad).
