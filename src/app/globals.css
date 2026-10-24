@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Surfaces */
+  --canvas-bg: #F4F5F7;
+  --surface-card: #FFFFFF;
+  --surface-recessed: #EAECEF;
+  --border-hairline: #DDE1E7;
+  --border-strong: #111315;
+
+  /* Inks */
+  --ink-primary: #111315;
+  --ink-secondary: #5A6065;
+  --ink-tertiary: #686F76;
+
+  /* Accents */
+  --accent-orange: #FF4F00;
+  --accent-orange-hover: #E04500;
+  --accent-blue: #0047FF;
+  --accent-blue-subtle: rgba(0, 71, 255, 0.06);
+  --accent-emerald: #107C41;
+  --accent-emerald-subtle: rgba(16, 124, 65, 0.12);
+}
+
+@layer base {
+  * {
+    border-color: #DDE1E7;
+  }
+  
+  html {
+    background-color: var(--canvas-bg);
+    color: var(--ink-primary);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--canvas-bg);
+    min-height: 100vh;
+    overflow-x: clip;
+  }
+
+  :focus-visible {
+    outline: 2px solid #0047FF;
+    outline-offset: 4px;
+  }
+
+  section, #contact { scroll-margin-top: 136px; }
+
+  button, a, input { -webkit-tap-highlight-color: transparent; }
+
+  ::selection {
+    background-color: #FF4F00;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 768px) {
+  section, #contact { scroll-margin-top: 88px; }
+}
+
+@layer components {
+  .eyebrow {
+    @apply font-mono text-[10px] uppercase tracking-wider text-ink-secondary;
+  }
+  .keycap {
+    @apply rounded border border-hairline bg-canvas px-1.5 py-0.5 font-mono text-[9px] text-ink-secondary;
+  }
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 1000;
+  padding: 12px 16px;
+  background: #111315;
+  color: white;
+  transform: translateY(-160%);
+}
+.skip-link:focus { transform: translateY(0); }
+
+/* Exposed Architectural Hairline Grid Background */
+.bg-architectural-grid {
+  background-image: 
+    linear-gradient(to right, #DDE1E7 1px, transparent 1px),
+    linear-gradient(to bottom, #DDE1E7 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Blueprint Grid for UX X-Ray Mode */
+.bg-xray-blueprint-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 71, 255, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 71, 255, 0.08) 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+/* Mechanical Tactile Compression Rule */
+.tap-tactile {
+  transition: transform 100ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.tap-tactile:active {
+  transform: scale(0.97);
+}
+
+/* Subtle crosshair indicator */
+.crosshair-corner {
+  position: absolute;
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 10px;
+  line-height: 1;
+  color: #8C9298;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* Live Status Pulse Animation */
+@keyframes status-pulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(0.85);
+  }
+}
+
+.animate-status-pulse {
+  animation: status-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Reduced Motion Override */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
